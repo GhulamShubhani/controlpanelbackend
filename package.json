@@ -5,8 +5,8 @@
   "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/app.ts",
-    "dev": "npx tsc --noEmit && ts-node src/app.ts"
+    "start": "nodemon ./build/app.js",
+    "dev": "npx tsc --noEmit && nodemon ./build/app.js"
   },
   "keywords": [],
   "author": "",
